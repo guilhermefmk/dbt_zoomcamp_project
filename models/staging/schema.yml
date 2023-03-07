@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: beaming-figure-375814
+    schema: dezoomcamp
+
+    tables:
+      - name: external_fhv
+      - name: external_green
+      - name: external_yellow
